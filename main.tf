@@ -12,9 +12,6 @@ resource "aws_instance" "Amazon-RHEL" {
   }
 
 }
-provider "aws" {
-  region = "us-east-1"
-}
 
 resource "aws_instance"  "Ubuntu" {
   count         = 1
